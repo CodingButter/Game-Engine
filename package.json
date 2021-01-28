@@ -1,0 +1,14 @@
+{
+  "name": "new-beginner-javascript-game-engine",
+  "version": "0.0.1",
+  "description": "New Beginner Javascript Game Engine Video 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamie Nichols",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
