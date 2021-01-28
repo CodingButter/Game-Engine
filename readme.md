@@ -12,7 +12,7 @@
 
 > 00:04:00 [Installing NodeJS And NPM](#installing-nodejs-and-npm)
 
-> 00:06:00 [Installing Parcel Bundler](#installing-parcel-bundler)
+> 00:06:00 [Installing HTTP Server](#installing-http-server)
 
 > 00:09:00 [Initializing Our Project](#initializing-our-project)
 
@@ -40,10 +40,6 @@
 
 </br>
 
-    Why VS Code
-
-</br>
-
 <a style="color:white" href="https://code.visualstudio.com/download"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS-Code-Download" width="25"> Visual Studio Code</a>
 
 - It's been widely adopted over the last few years.
@@ -62,21 +58,19 @@
 
 Node comes with npm installed so we can include npm packages in our projects.
 
-- Easy to create and fun projects
+- Easy to create, test, and deploy projects
 - Server side and client side
-- Eventually the ability to install Packages from other
+- With npm we will have the ability to install Packages from others which we may or may not do in later videos.
 
 </br>
 
-> ## Installing Parcel Bundler
+> ## Installing HTTP Server
 
 </br>
 
-<a href="https://parceljs.org/getting_started.html"><img src="https://user-images.githubusercontent.com/19409/31321658-f6aed0f2-ac3d-11e7-8100-1587e676e0ec.png" alt="alt text" width="150"></a>
+<a style="color:white" href="https://www.npmjs.com/package/http-server"><img src="https://www.flaticon.com/svg/vstatic/svg/3208/3208726.svg?token=exp=1611828251~hmac=f4d4837fdc9a8fa501025d5ca11c0f29" alt="alt text" width="25"> HTTP-Server</a>
 
-- Packages up our project into a neat single minified html,css,js distrobution.
-- Creates a simple development environtment
-- Allows for live refreshing after code changes.
+- Allows us to open files from the computer such as our json files once we get to that point.
 
 </br>
 
@@ -93,8 +87,12 @@ We need to set up our directory structure and basic html style and javascript fi
       
 ```html
 <html>
+    <head>
+        <title>Javascript Game Engine</title>
+        <link rel="stylesheet" href="src/style.css"/>
+    </head>
     <body>
-        <script src="./src/app.js"></script>
+        <script type="module" src="src/app.js"></script>
     </body>
 </html>
 ```
@@ -105,10 +103,9 @@ We need to set up our directory structure and basic html style and javascript fi
 <details><summary>app.js</summary>
 
 ```js
-import "style.css"
-
 const app = document.createElement("div")
 app.id = "app"
+document.body.appendChild(app)
 document.body.appendChild(app)
 ```
 
@@ -125,10 +122,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #666666;
+  background: #666;
 }
 #app {
-  background: "white";
+  background: white;
+  width: 50%;
+  height: 50%;
 }
 ```
 
