@@ -36,6 +36,8 @@
 
 - In this series we will begin by installing and using Parcel to build out our project for development and production but that is all its for. Our environment. But the code we will be writing atleast from the beginning in Vanilla Javascript and we wont depend on anyone elses Code..... Or will we (Forshadowing?)
 
+</br>
+
 > ## Installing VS Code
 
 </br>
