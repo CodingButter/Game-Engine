@@ -117,7 +117,7 @@ We need to set up our directory structure and basic html style and javascript fi
 
 ```json
 {
-  "name": "geve01",
+  "name": "javsacript-game-engine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
