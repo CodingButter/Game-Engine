@@ -76,7 +76,12 @@ Node comes with npm installed so we can include npm packages in our projects.
 
 <a style="color:white" href="https://www.npmjs.com/package/http-server"><img src="/Resources/data-server.png" alt="Http-Server" width="25"> HTTP-Server</a>
 
-- Allows us to open files from the computer such as our json files once we get to that point.
+http-server allows us to open files from the computer such as our json files once we get to that point.
+
+Install Command
+
+    npm i -g http-server
+
 
 </br>
 
@@ -84,11 +89,41 @@ Node comes with npm installed so we can include npm packages in our projects.
 
 </br>
 
+1. Creating a folder and opening it up in VS Code.
+2. Open the terminal and enter the following command
+
+```
+npm init -y
+```
+
+<br>
+
 We need to set up our directory structure and basic html style and javascript files. The simple directory structur and files that we will start with go as follows
 
 <details>
-<summary><b>Project Directory</b></summary>
+<summary>
+<b>
+Project Directory
+</b>
+</summary>
 
+<details>
+<summary>package.js</summary>
+
+```json
+{
+  "name": "gev01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"http-server ./"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+</deails>
 <details><summary>index.html</summary>
       
 ```html
@@ -102,6 +137,7 @@ We need to set up our directory structure and basic html style and javascript fi
     </body>
 </html>
 ```
+
 </details>
 
 <details><summary><b>src</b></summary>
@@ -109,9 +145,6 @@ We need to set up our directory structure and basic html style and javascript fi
 <details><summary>app.js</summary>
 
 ```js
-import test from "/src/test.js"
-
-alert(`This is working: ${working}`)
 const app = document.createElement("div")
 app.id = "app"
 document.body.appendChild(app)
@@ -136,15 +169,6 @@ body {
   background: white;
   width: 50%;
   height: 50%;
-}
-```
-
-</details>
-<details><summary>test.js</summary>
-
-```js
-export default {
-  test: "true",
 }
 ```
 
