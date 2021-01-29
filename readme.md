@@ -74,7 +74,7 @@ Node comes with npm installed so we can include npm packages in our projects.
 
 </br>
 
-<a style="color:white" href="https://www.npmjs.com/package/http-server"><img src="https://www.flaticon.com/svg/vstatic/svg/3208/3208726.svg?token=exp=1611828251~hmac=f4d4837fdc9a8fa501025d5ca11c0f29" alt="alt text" width="25"> HTTP-Server</a>
+<a style="color:white" href="https://www.npmjs.com/package/http-server"><img src="/Resources/data-server.png" alt="Http-Server" width="25"> HTTP-Server</a>
 
 - Allows us to open files from the computer such as our json files once we get to that point.
 
