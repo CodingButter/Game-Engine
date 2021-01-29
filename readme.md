@@ -102,7 +102,7 @@ Git will give us a set of tools to use in the terminal for following along with 
 2. Open the terminal and enter the following command
 
 ```
-git clone -b game-engine-starter https://github.com/CodingButter/new-beginner-javascript-game-engine.git Game-Engine
+git clone -b game-engine-starter https://github.com/CodingButter/Game-Engine.git
 ```
 
 </br>
