@@ -1,4 +1,4 @@
-import { working } from "./test.js"
+import test from "/src/test.js"
 
 alert(`This is working: ${working}`)
 const app = document.createElement("div")

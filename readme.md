@@ -14,7 +14,11 @@
 
 > 00:06:00 [Installing HTTP Server](#installing-http-server)
 
+> 00:08:00 [Updating Our Package.json](#updating-our-package.json)
+
 > 00:09:00 [Initializing Our Project](#initializing-our-project)
+
+> 00:17:00 [Running The Project](#running-the-project)
 
 > 00:19:00 [Video And Project Summary](#video-and-project-summary)
 
@@ -105,9 +109,11 @@ We need to set up our directory structure and basic html style and javascript fi
 <details><summary>app.js</summary>
 
 ```js
+import test from "/src/test.js"
+
+alert(`This is working: ${working}`)
 const app = document.createElement("div")
 app.id = "app"
-document.body.appendChild(app)
 document.body.appendChild(app)
 ```
 
@@ -134,6 +140,15 @@ body {
 ```
 
 </details>
+<details><summary>test.js</summary>
+
+```js
+export default {
+  test: "true",
+}
+```
+
+</details>
 </details>
 </details>
 
@@ -147,5 +162,5 @@ body {
 
 - Why VS CODE
 - Why Node/NPM
-- Why Parcel
+- Why Http-Server
 - Importance of keeping a clean project structure

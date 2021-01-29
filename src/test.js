@@ -1,3 +1,3 @@
 export default {
-    working:true
+    test:"true"
 }
