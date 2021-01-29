@@ -117,7 +117,7 @@ We need to set up our directory structure and basic html style and javascript fi
 
 ```json
 {
-  "name": "gev01",
+  "name": "geve01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
