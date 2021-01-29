@@ -99,15 +99,20 @@ npm init -y
 <br>
 
 We need to set up our directory structure and basic html style and javascript files. The simple directory structur and files that we will start with go as follows
-
+<blockquote>
 <details>
+
 <summary>
 <b>
-Project Directory
+  Project Directory
 </b>
 </summary>
 
+<blockquote>
+
 <details>
+
+
 <summary>package.js</summary>
 
 ```json
@@ -122,8 +127,11 @@ Project Directory
   "author": "",
   "license": "ISC"
 }
+  ```
 
-</deails>
+
+</details>
+
 <details><summary>index.html</summary>
       
 ```html
@@ -141,6 +149,8 @@ Project Directory
 </details>
 
 <details><summary><b>src</b></summary>
+
+<blockquote>
 
 <details><summary>app.js</summary>
 
@@ -173,8 +183,16 @@ body {
 ```
 
 </details>
+
+</blockquote>
+
 </details>
+
+</blockquote>
+
 </details>
+
+</blockquote>
 
 <br>
 
